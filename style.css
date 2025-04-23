@@ -1,0 +1,43 @@
+body {
+    background-color:#F3F4EC ;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: #F3F4EC;
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid #1C1C1B;
+  padding: 13px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #1C1C1B;
+  }
+
+.logo {
+    text-decoration: none;
+    color: #1C1C1B;
+   margin-top: 15px
+}
+
+.sobre-mi {
+    
+        text-align: center;
+        margin-top: 3rem;
+      
+}
+.sobre-mi img {
+    width: 90%; 
+    max-width: 600px;
+    height: auto;
+  }
